@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- 자바 학습 내용 -->
+</head>
+<body>
+    <h1>자바(Java) 학습내용</h1>
+    <h2>담당 강사 : 강보람</h2>
+    이메일 : boram@iei.or.kr
+
+    <hr>
+
+    <ul>
+        <li>
+            프로그래밍 언어
+            <ul><li><s>Java</s></li></ul>
+        </li>
+        <li>데이터베이스
+            <ul><li><s>Oracle</s></li></ul>
+        </li>
+        <li>
+            화면구현
+            <ol>
+               <li><mark>HTML5</mark></li>
+               <li>CSS3</li> 
+               <li>JavaScript</li>
+               <li>JQuery</li>
+            </ol>
+        </li>
+        <li>
+            서버 개발 기술
+            <ol type="i">
+                <li><s>JDBC</s></li>
+                <li>Servlet</li>
+                <li>JSP</li>
+                <li>AJAX</li>
+            </ol>
+        </li>
+        <li>
+            프레임워크
+            <ol type="a">
+                <li>MyBatis</li>
+                <li><b>Spring</b></li>
+            </ol>
+        </li>
+    </ul>
+
+</body>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<head>
+<!-- 하수정 보석 컬렉션 (7행 5열) -->
+<style>
+    #a{
+        background-color: red;
+    }
+</style>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th style="background-color: cyan;" colspan="7" width="300">하수정 보석 컬렉션</th>
+        </tr>
+        <tr id="a">
+           <th rowspan="5" width="80">제품리스트</th>
+           <th width="45">코드</th>
+           <th width="30">분류</th>
+           <th width="70">가격</th>
+           <th width="80">구매가능 개수</th>
+        </tr>
+        <tr style="background-color: orange;">
+            <td>01-468</td>
+            <td>가을</td>
+            <td>200,000원</td>
+            <td>1068</td>
+        </tr>
+        <tr style="background-color: orange;">
+            <td>01-469</td>
+            <td>가을</td>
+            <td>150,000원</td>
+            <td>1700</td>
+        </tr>
+        <tr style="background-color: orange;">
+            <td>01-470</td>
+            <td>여름</td>
+            <td>950,000원</td>
+            <td>2500</td>
+        </tr>
+        <tr style="background-color: orange;">
+            <td>01-471</td>
+            <td>봄</td>
+            <td>120,000원</td>
+            <td>3200</td>
+        </tr>
+        <tr style="background-color: yellow;">
+            <th style="background-color: red;" colspan="3">총합</th>
+            <td>1,420,000원</td>
+            <td>8468</td>
+        </tr>
+    </table>
+ 
+</body>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+   
+<head>
+    <!-- KH 정보교육원 강의 (8행 5열)-->
+    <style>
+        #s{
+            background-color: yellow;
+        }
+    </style>
+
+</head>
+<table border="1">
+    <h1 style="color: red;">KH 정보교육원 강의</h1>
+    <tr style="background-color: pink; color: white;">
+        <th>관</th>
+        <th>강의장</th>
+        <th>인원수</th>
+        <th colspan="2">강의명</th>
+    </tr>
+    <tr id="s">
+        <td rowspan="6">1관</td>
+        <td rowspan="2">I강의장</td>
+        <td rowspan="2">30명</td>
+        <td >오전 : 강보람</td>
+        <th><button style="background-color: skyblue; color: white;">신청하기</button></th>
+    </tr>
+    <tr id="s"> 
+        <td>오후 : 강보람</td>
+        <td ><button style="background-color: skyblue; color: white;">신청하기</button></td>
+    </tr>
+    <tr id="s">
+        <td rowspan="2">G강의장</td>
+        <td rowspan="2">23명</td>
+        <td>오전 : 박신우</td>
+        <td><button style="background-color: skyblue; color: white;">신청하기</button></td>
+    </tr>
+    <tr id="s">
+        <td>오후 : 박신우</td>
+        <td><button style="background-color: skyblue; color: white;">신청하기</button></td>
+    </tr>
+    <tr id="s">
+        <td rowspan="2">H강의장</td>
+        <td rowspan="2">27명</td>
+        <td>오전 : 유승제</td>
+        <td><button style="background-color: skyblue; color: white;">신청하기</button></td>
+    </tr>
+    <tr id="s">
+        <td>오후 : 유승제</td>
+        <td><button style="background-color: skyblue; color: white;">신청하기</button></td>
+    </tr>
+    <tr style="background-color: red; color: blue;">
+        <th colspan="5">많이 신청해주세요!</th>
+    </tr>
+</table>
+</body>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<hr>
+
+<form action="do.test">
+<fieldset>
+    <legend>납품자 정보</legend>
+    <ol>
+        <li>납품자명 : <input type="text" name="name" placeholder="name"></li><br>
+        <li> email : <input type="email" name="email" placeholder="answs@naver.com"></li><br>
+        <li>홈페이지 : <input type="text" name="homepage" placeholder="http://"></li>
+    </ol>
+</fieldset>
+   
+<fieldset>
+    <legend>납품정보</legend>
+    <ul>
+        <li>상품명 : <input type="text" name="proname" required> </li><br>
+        <li>납품수량 : <input type="number" name="pronumber" placeholder="최소 100" min="100"></li><br>
+        <li>납품등급 : <input type="range" name="prograde" min="0" max="100" step="10"></li><br>
+        <li>기타사항 : <textarea name="contents" cols="18" rows="2"></textarea></li><br>
+    </ul>
+</fieldset>
+
+<br>
+<input type="submit" value="send message">
+</form>
+
+<hr>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+<form action="test.do">
+
+<fieldset>
+
+<fieldset>
+    <legend>필수 입력 사항</legend>
+    <h3>ID <input type="text" name="userId" placeholder="아이디 10글자 이내" maxlength="10" required> <button type="button">중복 확인</button></h3>
+    <h3>비밀번호 <input type="password" name="userPwd" placeholder="영문, 숫자, 특수문자 포함 8자 이상" minlength="8" required></h3>
+    <h3>비밀번호 확인 <input type="password" name="PwdcCorrect" minlength="8"></h3>
+    <h3>Email <input type="email" name="email" > 
+        <select name="email">
+            <option value="naver">naver.com</option>
+            <option value="gmail">gmail.com</option>
+            <option value="daum">daum.net</option>
+            <option value="self" selected>직접입력</option>
+        </select>
+    </h3>
+</fieldset>
+<fieldset>
+<legend>추가 정보</legend>
+프로필사진 : 
+<input type="file" name="uploadFile">
+<br><br>
+성별 : 
+<input id="radioM" type="radio" name="gender" value="M"><label for="radioM">남</label>
+<input id="radioF" type="radio" name="gender" value="F"><label for="radioF">여</label>
+<br><br>
+생년월일 : 
+<input type="date">
+<br><br>
+취미 <br>
+<input id="baseball" type="checkbox" name="hobby" value="baseball">
+<label for="baseball">야구</label>
+
+<input id="basketball" type="checkbox" name="hobby" value="basketball">
+<label for="basketball">농구</label>
+
+<input id="football" type="checkbox" name="hobby" value="football">
+<label for="football">축구</label><br>
+
+<input id="study" type="checkbox" name="hobby" value="study">
+<label for="study">공부</label>
+
+<input id="music" type="checkbox" name="hobby" value="music">
+<label for="music">음악감상</label><br>
+
+<input id="etc" type="checkbox" name="hobby" value="etc">
+<label for="etc">기타 : </label>
+<input type="text">
+
+<br><br>
+자기소개 <br>
+<textarea name="introduce" cols="40" rows="4" style="resize :none;"></textarea>
+
+</fieldset>
+
+<br>
+<button type="submit">회원가입</button>
+<button type="reset">다시입력</button>
+<button type="menu"> 이전으로</button>
+<br><br>
+</fieldset>
+</form>
+
+<hr>
+
+ <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+ <form action="test.do">
+
+    <fieldset>
+        <legend>피자 사이즈</legend>
+        <input id="small" type="radio" name="size" value="S">
+        <label for="small">Small</label>
+        <br><br>
+        <input id="medium" type="radio" name="size" value="M">
+        <label for="medium">Medium</label>
+        <br><br>
+        <input id="large" type="radio" name="size" value="L">
+        <label for="large">Large</label>
+        <br><br>
+    </fieldset>
+    <fieldset>
+        <legend>토핑 선택</legend>
+        <input id="bacon" type="checkbox" name="toping" value="bacon">
+        <label for="bacon">베이컨</label>
+        <br><br>
+        <input id="cheese" type="checkbox" name="toping" value="cheese">
+        <label for="cheese">치즈</label>
+        <br><br>
+        <input id="onion" type="checkbox" name="toping" value="onion">
+        <label for="onion">양파</label>
+        <br><br>
+        <input id="mushroom" type="checkbox" name="toping" value="mushroom">
+        <label for="mushroom">버섯</label>
+        <br><br>
+    </fieldset>
+
+    <br>
+
+    희망 배송 시간 : 
+    <input type="time">
+
+    <br><br>
+    
+    배송 시 요청사항 : 
+    <textarea name="require" cols="20" rows="3"></textarea>
+
+    <br><br>
+
+    <button type="submit">주문하기</button>
+
+ </form>
+
+
+
+
+
+
+ <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</html>

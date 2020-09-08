@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영역 관련 태그</title>
+    <style>
+        div, span {
+            border: 1px solid black;
+        }
+
+        #div1, #span1{background-color: red;}
+        #div2, #span2{background-color: yellow;}
+        #div3, #span3{background-color: green;}
+
+        
+    </style>
+</head>
+<body>
+    
+    <h1>영역 관련 태그</h1>
+
+    <!-- 
+
+        블럭 요소 : 한 줄 단위로 영역을 차지하는 요소
+                   줄바꿈이 적용되어 이미 존재하는 태그의 다음줄에 영역 잡힘
+                   (h태그, p, pre, ..., "div")
+
+        인라인 요소 : content 내용에 해당하는 부분만 영역을 차지하는 요소
+                     줄바꿈이 적용되지 않아 옆으로 영역이 잡힘 (연이어서 출력)
+                     다음줄로 넘기고자 한다면 br로 개행해야됨
+                     (b, s, mark, img, ..., "span")
+     -->
+
+     <h2>div태그와 span태그의 차이1 : 줄바꿈 적용</h2>
+
+     <h3>> div태그 : 블럭요소 (한 줄 단위 영역 차지)</h3>
+     <div id="div1">첫번째 영역</div>
+     <div id="div2">두번째 영역</div>
+     <div id="div3">세번째 영역</div>
+
+     <h3>> span태그 : 인라인요소 (content영역만을 차지)</h3>
+     <span id="span1">첫번째 영역</span>
+     <span id="span2">두번째 영역</span>
+     <span id="span3">세번째 영역</span>
+
+     <hr>
+
+     <h2>div태그와 span태그의 차이2 : 영역 지정 방식</h2>
+     
+     <h3>> div 태그 : 사각형 박스로 영역을 지정</h3>
+
+     <div style="background-color: lightpink;">
+        불러 새겨지는 비둘기, 별들을 까닭입니다. 가을로 어머님, 많은 아무 다하지 하나의 하나 까닭입니다. 묻힌 이름과, 까닭이요, 한 나는 너무나 했던 하나의 있습니다. 그리워 보고, 많은 별 책상을 별 없이 계십니다. 강아지, 속의 이국 이런 불러 아이들의 이름자를 걱정도 패, 있습니다. 별 시와 않은 무덤 옥 멀리 못 우는 봅니다. 가을로 봄이 별 새워 멀리 된 걱정도 봅니다. 밤을 시인의 토끼, 별이 차 이런 있습니다. 별 사람들의 자랑처럼 둘 봅니다. 헤일 북간도에 나의 말 벌레는 별을 버리었습니다.
+
+        가을로 그리고 오는 계십니다. 이름과, 계집애들의 시인의 슬퍼하는 다 소녀들의 겨울이 언덕 아이들의 버리었습니다. 라이너 나는 까닭이요, 마리아 헤는 아무 차 못 하나 까닭입니다. 마디씩 별빛이 어머니, 이네들은 많은 헤는 너무나 봅니다. 별이 나는 때 버리었습니다. 둘 이름자를 이름과, 별빛이 보고, 있습니다. 무성할 내 그리워 하나에 사랑과 나는 벌써 봅니다. 하나에 벌써 같이 있습니다. 이국 흙으로 시인의 언덕 까닭입니다.
+     </div>
+
+     <h3>> span 태그 : 문장단위로 영역을 지정</h3>
+
+     <span style="background-color: aquamarine;">불러 새겨지는 비둘기, 별들을 까닭입니다. 가을로 어머님, 많은 아무 다하지 하나의 하나 까닭입니다. 묻힌 이름과, 까닭이요, 한 나는 너무나 했던 하나의 있습니다. 그리워 보고, 많은 별 책상을 별 없이 계십니다. 강아지, 속의 이국 이런 불러 아이들의 이름자를 걱정도 패, 있습니다. 별 시와 않은 무덤 옥 멀리 못 우는 봅니다. 가을로 봄이 별 새워 멀리 된 걱정도 봅니다. 밤을 시인의 토끼, 별이 차 이런 있습니다. 별 사람들의 자랑처럼 둘 봅니다. 헤일 북간도에 나의 말 벌레는 별을 버리었습니다.
+
+        가을로 그리고 오는 계십니다. 이름과, 계집애들의 시인의 슬퍼하는 다 소녀들의 겨울이 언덕 아이들의 버리었습니다. 라이너 나는 까닭이요, 마리아 헤는 아무 차 못 하나 까닭입니다. 마디씩 별빛이 어머니, 이네들은 많은 헤는 너무나 봅니다. 별이 나는 때 버리었습니다. 둘 이름자를 이름과, 별빛이 보고, 있습니다. 무성할 내 그리워 하나에 사랑과 나는 벌써 봅니다. 하나에 벌써 같이 있습니다. 이국 흙으로 시인의 언덕 까닭입니다.
+    </span>
+
+
+    <!-- iframe태그 : 해당문서내에 또 다른 문서를 포함시킬 수 있는 태그 -->
+    <h1>iframe태그</h1>
+    <p>현재 이 문서내에 다른 웹 페이지를 추가하는 태그</p>
+
+    <iframe src="3_표관련태그.html" width="600" height="800" frameborder="0"></iframe>
+
+    <br><br><br>
+
+    <iframe src="https://www.youtube.com/embed/k-4rOUVd1F0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+    
+     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>표 연습문제</title>
+
+    <style>
+        /* CSS */
+        thead{
+            background-color:pink;
+            color:white;
+        }
+        tbody{
+            background-color:yellow;
+        }
+        tfoot{
+            background-color:orangered;
+            color:blue;
+        }
+        button{
+            background-color:skyblue;
+            color:white;
+        }
+        td{
+            text-align: center;
+        }
+        caption{
+            font-size:1.5em;
+            color:red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- HTML -->
+    <table border="1">
+       <caption>KH 정보교육원 강의</caption>
+       <thead>
+            <tr>
+                <th>관</th>
+                <th>강의장</th>
+                <th>인원수</th>
+                <th>강의명</th>
+            </tr>
+       </thead>
+       <tbody>
+            <tr>
+                <td rowspan="6">1관</td>
+                <td rowspan="2">I강의장</td>
+                <td rowspan="2">30명</td>
+                <td>오전 : 강보람 <button>신청하기</button></td>
+            </tr>
+            <tr>
+                <td>오후 : 강보람 <button>신청하기</button></td>
+            </tr>
+            <tr>
+                <td rowspan="2">G강의장</td>
+                <td rowspan="2">23명</td>
+                <td>오전 : 박신우 <button>신청하기</button></td>
+            </tr>
+            <tr>
+                <td>오후 : 박신우 <button>신청하기</button></td>
+            </tr>
+            <tr>
+                <td rowspan="2">H강의장</td>
+                <td rowspan="2">27명</td>
+                <td>오전 : 유승제 <button>신청하기</button></td>
+            </tr>
+            <tr>
+                <td>오후 : 유승제 <button>신청하기</button></td>
+            </tr>
+       </tbody>
+       <tfoot>
+            <tr>
+                <th colspan="4">많이 신청해주세요!</th>
+            </tr>
+       </tfoot>
+    </table>
+</body>
+</html>
